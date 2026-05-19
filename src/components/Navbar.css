@@ -1,0 +1,80 @@
+.header-completo {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.cinta-top {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 5%;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.cinta-left {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-text {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon-text:hover {
+  color: #ff4500;
+}
+
+.nav-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.logo span {
+  color: #ff4500;
+}
+
+.categorias {
+  display: flex;
+  gap: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.categorias a:hover {
+  color: #ff4500;
+}
+
+.buscador {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 5px 15px;
+  width: 250px;
+}
+
+.buscador input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.buscador button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
